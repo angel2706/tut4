@@ -1,11 +1,7 @@
 package tut4;
 
 
-/**
- * 
- *
- */
-public class App 
+public class Calc 
 {
 	public int add(int a, int b) {
 		   return a + b;

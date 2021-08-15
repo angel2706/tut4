@@ -2,26 +2,26 @@ package tut4;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import tut4.App;
+import src/main/java/tut4.Calc;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class CalcTest 
 
 {
     
     @Test
     public void addTest()
     {
-    	int result = App.add(1, 1);
+    	int result = Calc.add(1, 1);
     	assertEquals(result, 2);
     }
     
     @Test
     public void subtractTest() 
     {
-    	int result = App.subtract(1, 1);
+    	int result = Calc.subtract(1, 1);
     	assertEquals(result, 0);
     }
 
