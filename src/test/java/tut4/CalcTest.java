@@ -24,7 +24,7 @@ public class CalcTest
     {
     	Calc calc = new Calc();
     	int result = calc.subtract(1, 1);
-    	assertEquals(result, 0);
+    	assertEquals(result,10);
     }
 
 
